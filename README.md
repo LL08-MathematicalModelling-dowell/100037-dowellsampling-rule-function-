@@ -1,0 +1,1 @@
+# 100037-dowellsampling-rule-function-
