@@ -1,0 +1,19 @@
+start									
+Call dowellsampling rules(sample size,number of categories)									
+									
+	Define sample size as variable "n"								
+		Input from frontend programmer or user / Call dowellsamplesize()							
+	Define number of categories as variable "k"								
+		Input from frontend programmer or user 							
+	 if the sample size is greater than equals to 30,it is appropriate								
+	otherwise ,prompt " sample size is not adequate"								
+	if there are more than one category or subset,								
+		Minimum sample size  for each subset should be atleast 30							
+		if not ,prompt " sample size is not adequate"							
+	In case of multivariate research,								
+		if sample size is greater or equals to 10 times the number of variables in the study,then accept and continue							
+		if sample size is less than 10 times the number of variables in the study,then prompt" sample size is not adequate as per this condition"and continue with checking another conditions							
+			if other conditions (mentioned above)are satisfied,then accept the sample size						
+			if not,then prompt " sample size is not acceptable"						
+									
+	Function output(Acceptance of sample size,sample size)								
